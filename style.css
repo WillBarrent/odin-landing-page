@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+
+    min-height: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-container {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-container-1 {
+    width: 40%;
+}
+
+.header-img {
+    width: 60%;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-button, .action-button {
+    border: none;
+    outline: none;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#nav-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.nav-link, .header-info {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+#nav-logo {
+    margin-right: auto;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    padding: 60px;
+}
+
+.random-container {
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.random-title {
+    margin-bottom: 40px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-text {
+    text-align: center;
+    width: 50%;
+}
+
+.random-img {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.quote-text {
+    width: 50%;
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    width: 50%;
+    margin-top: 10px;
+
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action {
+    margin: 40px 150px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #f9faf8;
+
+    border-radius: 10px;
+}
+
+.action-button {
+    border: 2px solid #f9faf8;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
